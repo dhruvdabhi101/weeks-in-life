@@ -7,7 +7,3 @@ enableEmoji = true
 
 [params]
 author = "Dhruv Dabhi"
-
-[module]
-  [module.hugoVersion]
-    extended = true  # Required for SCSS processing
