@@ -22,6 +22,12 @@ This code was copied and adapted from [Buster Benson](https://busterbenson.com/l
 ```
 3. Visit [http://localhost:1313/](http://localhost:1313/).
 
+## 🌐 Deploy
+1. Fork this repository.
+2. Create a new site on [Netlify](https://app.netlify.com/start).
+3. Connect your forked repository.
+4. Deploy!
+
 ## ✨ Customize
 
 - `content/` → Page content
