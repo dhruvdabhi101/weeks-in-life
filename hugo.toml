@@ -1,4 +1,4 @@
-baseURL = 'https://weeks.ginatrapani.org/'
+baseURL = 'https://weeks.dhruvdabhi.me/'
 languageCode = 'en-us'
 title = 'My Life in Weeks'
 disableKinds = ["taxonomy", "taxonomy"]
@@ -6,4 +6,4 @@ enableEmoji = true
 
 
 [params]
-author = "Gina Trapani"
+author = "Dhruv Dabhi"
