@@ -1,0 +1,152 @@
+#
+# The first event should be birth.
+# The date should match start_date in content/index.md.
+#
+"2003-09-06":
+    - headline: "🐣 I was born"
+      description: "I entered the world in India."
+      based: "India"
+      doing: "I was smol"
+
+"2004-09-06":
+    - headline: "👶 Turned 1"
+
+"2005-09-06":
+    - headline: "👶 Turned 2"
+
+"2006-09-06":
+    - headline: "👶 Turned 3"
+
+"2007-09-06":
+    - headline: "👶 Turned 4"
+
+"2008-09-06":
+    - headline: "👶 Turned 5"
+
+"2009-06-06":
+    - headline: "🖍️ Started School"
+      description: "Began my educational journey"
+      based: "India"
+      doing: "Student"
+
+"2009-09-06":
+    - headline: "👶 Turned 6"
+
+"2010-09-06":
+    - headline: "👶 Turned 7"
+
+"2011-09-06":
+    - headline: "👶 Turned 8"
+
+"2012-09-06":
+    - headline: "👶 Turned 9"
+
+"2013-09-06":
+    - headline: "👧 Turned 10"
+
+"2014-05-26":
+    - headline: "🇮🇳 Modi became PM"
+      description: "Narendra Modi became Prime Minister of India"
+
+"2014-09-06":
+    - headline: "👧 Turned 11"
+
+"2015-09-06":
+    - headline: "👧 Turned 12"
+
+"2016-09-06":
+    - headline: "👧 Turned 13"
+
+"2017-09-06":
+    - headline: "👧 Turned 14"
+
+"2018-09-06":
+    - headline: "👧 Turned 15"
+
+"2019-03-15":
+    - headline: "📚 Passed 10th Standard"
+      description: "Completed secondary education"
+      doing: "Student"
+
+"2019-09-06":
+    - headline: "👧 Turned 16"
+
+"2020-09-06":
+    - headline: "👧 Turned 17"
+
+"2021-03-15":
+    - headline: "📚 Passed 12th Standard"
+      description: "Completed higher secondary education"
+      doing: "Student"
+
+"2021-09-06":
+    - headline: "👧 Turned 18"
+
+"2021-10-18":
+    - headline: "🎓 Started College"
+      description: "Began undergraduate studies"
+      doing: "College Student"
+
+"2022-05-15":
+    - headline: "📚 Finished First Year"
+      description: "Completed first year of college"
+
+"2022-09-06":
+    - headline: "👨 Turned 19"
+
+"2023-04-15":
+    - headline: "📚 Finished Second Year"
+      description: "Completed second year of college"
+
+"2023-05-01":
+    - headline: "💼 First Freelance Client"
+      description: "Started freelancing journey"
+      doing: "Student/Freelancer"
+
+"2023-09-06":
+    - headline: "👨 Turned 20"
+
+"2024-02-21":
+    - headline: "👔 First Job"
+      description: "Started my first professional job"
+      doing: "Working Professional"
+
+"2024-04-15":
+    - headline: "📚 Finished Third Year"
+      description: "Completed third year of college"
+
+"2024-08-13":
+    - headline: "👔 Got Placed"
+      description: "Received job offer from a company"
+
+"2024-09-06":
+    - headline: "👨 Turned 21"
+
+"2025-01-04":
+    - headline: "💼 Moved out"
+      description: "Moved out of my parents' house, living in PG"
+
+"2025-01-06":
+    - headline: "💼 Started Internship"
+      description: "at silvertouch"
+
+# Future birthdays can be added as needed
+"2025-09-06":
+    - headline: "👨 Will turn 22"
+
+# Prime Ministers of India during your lifetime
+"2004-05-22":
+    - headline: "🇮🇳 Manmohan Singh became PM"
+      description: "Manmohan Singh became Prime Minister of India"
+
+"2014-05-26":
+    - headline: "🇮🇳 Modi became PM"
+      description: "Narendra Modi became Prime Minister of India"
+
+"2019-05-30":
+    - headline: "🇮🇳 Modi's second term"
+      description: "Narendra Modi began his second term as Prime Minister"
+
+"2024-05-30":
+    - headline: "🇮🇳 Modi's third term"
+      description: "Narendra Modi began his third term as Prime Minister"

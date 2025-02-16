@@ -1,0 +1,165 @@
+:root {
+  --main-bg-color: #fff7e9;
+  --text-color: #3f5c72;
+  --header-text-color: var(--text-color);
+  --link-color: var(--text-color);
+  --highlight-color: #f05d2b;
+  --future-border: #dee2e6;
+  --future-bg-color: #eee;
+  --body-font-size-desktop: 16px;
+  --body-font-size-mobile: 12px;
+  --header-font-size-desktop: 72px;
+  --header-font-size-mobile: 36px;
+}
+
+@font-face {
+  font-family: redhatdisplay-medium;
+  src: url(/fonts/RedHatDisplay-Medium.ttf);
+}
+
+@font-face {
+  font-family: redhatdisplay-xtrabold;
+  src: url(/fonts/RedHatDisplay-ExtraBold.ttf);
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  background-color: var(--main-bg-color);
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  scroll-padding-top: 70px;
+  @media only screen and (max-width: 768px) {
+    scroll-padding-top: 62px;
+  }
+}
+
+body {
+  font-family: redhatdisplay-medium, serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: var(--body-font-size-desktop);
+  @media only screen and (max-width: 768px) {
+    font-size: var(--body-font-size-mobile);
+  }
+  font-style: normal;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: inherit;
+}
+
+h1 {
+  font-family: redhatdisplay-xtrabold, serif;
+  font-weight: 800;
+  font-size: var(--header-font-size-desktop);
+  margin: 0;
+  color: var(--header-text-color);
+  @media only screen and (max-width: 768px) {
+    font-size: var(--header-font-size-mobile);
+  }
+  transition: all 0.25s;
+}
+
+h1.tiny {
+  font-size: var(--header-font-size-mobile);
+  transition: all 0.25s;
+}
+
+h1 a,
+h1 a:hover {
+  border: none;
+}
+
+a {
+  color: var(--link-color);
+  border-bottom: dotted var(--link-color) 1px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--highlight-color);
+  text-decoration: none;
+  border-bottom: solid var(--highlight-color) 1px;
+}
+
+.life-in-weeks {
+  border-radius: 5px;
+  margin: 0 20% 40% 20%;
+  .future-date {
+    background-color: var(--future-bg-color) !important;
+    border-color: var(--future-border) !important;
+  }
+  .week,
+  .birthday {
+    height: 2em;
+    max-height: 2em;
+    padding: 2px 5px;
+    margin: 2px 1px;
+    border: 2px solid var(--future-border);
+  }
+  .btn {
+    --bs-btn-color: var(--text-color);
+    --bs-btn-font-size: var(--body-font-size-desktop);
+    border-style: solid;
+    border-width: 2px;
+  }
+  blockquote {
+    margin-top: 50px;
+  }
+  @media only screen and (max-width: 768px) {
+    margin: 0 2%;
+    .btn {
+      --bs-btn-font-size: var(--body-font-size-mobile);
+    }
+  }
+  li {
+    list-style-type: none;
+  }
+  li a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  li a:hover {
+    color: var(--highlight-color);
+    text-decoration: none;
+    border: none;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .navbar {
+    --bs-navbar-padding-y: 0;
+    margin-bottom: 2em;
+    display: none;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    .nav-pills {
+      --bs-nav-pills-border-radius: 0;
+      --bs-nav-pills-link-active-bg: var(--main-bg-color);
+      --bs-nav-link-padding-x: 0.5rem;
+      @media only screen and (max-width: 768px) {
+        --bs-nav-link-padding-x: 0.35rem;
+      }
+      --bs-nav-link-padding-y: 0;
+      --bs-nav-link-color: var(--highlight-color);
+      --bs-nav-pills-link-active-color: var(--highlight-color);
+      border-bottom: solid var(--highlight-color) 1px;
+    }
+  }
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--highlight-color);
+  --bs-tooltip-color: var(--bs-white);
+}
