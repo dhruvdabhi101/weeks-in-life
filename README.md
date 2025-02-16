@@ -16,8 +16,8 @@ This code was copied and adapted from [Buster Benson](https://busterbenson.com/l
    ```
 2. Clone and run locally:
 ```sh
-    git clone https://github.com/ginatrapani/ginatrapani.org.git
-    cd ginatrapani.org
+    git clone https://github.com/dhruvdabhi101/weeks-in-life.git
+    cd weeks-in-life
     hugo server -D
 ```
 3. Visit [http://localhost:1313/](http://localhost:1313/).
@@ -37,12 +37,3 @@ This page uses [Bootstrap](https://getbootstrap.com/) for layout and interaction
 
 The font is [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display). Colors chosen via [Color Hunt](https://colorhunt.co/). Edited in [Zed](https://zed.dev).
 
-## More Life in Weeks
-
-There are several neat Life in Weeks examples and tools, including:
-
-- [Weeksofyour.life](https://www.weeksofyour.life/): Make your own, completely browser-based
-- [Life Calendar](https://lifecalendar.io): Make your own, with multiple layers
-- [My Life in Days](https://days.sonnet.io/): Beautiful refactor, by days
-
-🍯 “I always get to where I am going by walking away from where I have been.” – Winnie the Pooh
